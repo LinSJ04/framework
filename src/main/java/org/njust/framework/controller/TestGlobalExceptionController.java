@@ -3,10 +3,12 @@ package org.njust.framework.controller;
 import org.njust.framework.exception.BaseException;
 import org.njust.framework.result.Result;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/test-global-exception")
+@RestController
+@RequestMapping("/test-global-exception")
 public class TestGlobalExceptionController {
 
     @GetMapping("/test")
