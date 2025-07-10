@@ -3,7 +3,7 @@ package org.njust.framework.thread.createthread;
 import java.util.concurrent.*;
 
 /**
- * 线程创建方式四：使用ExecutorService创建线程池，也可以自定义线程池
+ * 创建线程方式四：使用ExecutorService创建线程池，也可以自定义线程池
  */
 public class MyExecutorService {
     public static void main(String[] args) {
